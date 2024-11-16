@@ -59,3 +59,6 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 ## License
 
 © 2025 Khamko. All rights reserved.
+
+## Live Demo
+https://khamko07.github.io/portfolio/
