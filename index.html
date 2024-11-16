@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Khamko - Personal Portfolio</title>
+        <meta name="description"
+            content="Personal portfolio showcasing photography skills, projects, and professional journey of [Your Name]">
+        <meta name="keywords"
+            content="portfolio, photography, web development, [Your Name]">
+        <!-- Add to head section -->
+        <meta http-equiv="Content-Security-Policy"
+            content="default-src 'self' https:; script-src 'self' https: 'unsafe-inline'; style-src 'self' https: 'unsafe-inline';">
+        <!-- Optimize font loading -->
+        <link rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700&display=swap"
+            as="style">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet">
+
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <!-- AOS library for scroll animations -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="logo">Khamko</div>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#future-plans">Future Plans</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="vi">Tiếng Việt</option>
+                        <option value="lo">ພາສາລາວ</option>
+                    </select>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="home-content">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>Photographer | Web Developer | Lifelong Learner</p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="container">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Hello! I'm Khamko, a passionate photographer,
+                                front-end developer, and travel enthusiast. I
+                                love capturing the world through my lens and
+                                translating creative ideas into beautiful,
+                                functional websites. </p>
+                            <p>My journey in photography allows me to explore
+                                new perspectives, while coding challenges me to
+                                bring designs to life with a focus on user
+                                experience. When I'm not behind the camera or
+                                writing code, you can find me discovering new
+                                places and cultures, which constantly inspire my
+                                work.</p>
+                        </div>
+                        <div class="about-image">
+                            <img src="img/khamko.png" alt="Khamko">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <div class="container">
+                    <h2 class="section-title">My Portfolio</h2>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <img src="img/project1.jpg" alt="Project 1">
+                            <div class="portfolio-item-info">
+                                <h3>Lao Shoes</h3>
+                                <p>"This is a third-year project to build a shoe shop website using PHP."</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="img/project2.jpg" alt="Project 2">
+                            <div class="portfolio-item-info">
+                                <h3>Football news</h3>
+                                <p>"This is a third-year project to build a football news website using PHP."</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="img/project3.jpg" alt="Project 3">
+                            <div class="portfolio-item-info">
+                                <h3>Phone shop</h3>
+                                <p>"This is a third-year project to build a phone shop website using PHP."</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="img/project4.jpg" alt="Project 4">
+                            <div class="portfolio-item-info">
+                                <h3>Phone shop</h3>
+                                <p>"This is a third-year project to build a phone shop website using JavaScript."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="container">
+                    <h2 class="section-title">Education & Skills</h2>
+                    <div class="timeline">
+                        <div class="timeline-item left">
+                            <div class="timeline-content">
+                                <h3>2017-2020</h3>
+                                <p>SomSouk Secondary School</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-content">
+                                <h3>2020 - 2021</h3>
+                                <p><b>Learn Vietnamese</b></p>
+                                <p>The University of Danang - University of
+                                    Science and Education</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left">
+                            <div class="timeline-content">
+                                <h3>2021 - 2025</h3>
+                                <p><b>Information technology</b></p>
+                                <p>The University of Danang - University of
+                                    Science and Education</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-content">
+                                <h3>2024</h3>
+                                <p><b>Internship</b></p>
+                                <p><b>Web developer</b></p>
+                                <p>"Pascalia Asia Việt Nam"</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left">
+                            <div class="timeline-content">
+                                <h3>2025 - 2030</h3>
+                                <p><b>Web developer</b></p>
+                                <p>.....................</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-content">
+                                <h3>2030</h3>
+                                <p><b>Web developer</b></p>
+                                <p>.......................</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill-item">
+                                <span>HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>JavaScript</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Vue</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 50%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend Development</h3>
+                            <div class="skill-item">
+                                <span>PHP</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>SQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span>Laravel</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 60%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="future-plans">
+                <div class="container">
+                    <h2 class="section-title">Future Plans</h2>
+                    <div class="future-plans-content">
+                        <div class="future-plan-item">
+                            <h3>Master New Technologies</h3>
+                            <p>Continuously learn and adapt to emerging web
+                                technologies and photography techniques.</p>
+                        </div>
+                        <div class="future-plan-item">
+                            <h3>Start a Photography Blog</h3>
+                            <p>Share my experiences, tips, and insights with
+                                fellow photography enthusiasts.</p>
+                        </div>
+                        <div class="future-plan-item">
+                            <h3>Web Development</h3>
+                            <p>My heart is set on becoming a dedicated Web
+                                Developer
+                                in Da Nang after graduation. I aspire to join a
+                                tech company where I
+                                can grow my skills, learn from experienced
+                                developers, and contribute
+                                my best work as a team member. Through hard work
+                                and dedication, I hope to
+                                build a stable career in this beautiful coastal
+                                city that I've grown to love.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/khamkoxys"
+                            target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:3120221520@ued.udn.vn"
+                            target="_blank"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.instagram.com/khamko177/"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/khamko07" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Khamko. All rights reserved.</p>
+        </footer>
+        <script src="app.js"></script>
+
+    </body>
+</html>
