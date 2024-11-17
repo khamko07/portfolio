@@ -74,6 +74,24 @@ const translations = {
     futurePlans: "ແຜນອະນາຄົດ",
     contact: "ຕິດຕໍ່",
   },
+
+  th: {
+    home: "หน้าแรก",
+    about: "เกี่ยวกับ",
+    portfolio: "ผลงาน",
+    education: "การศึกษา",
+    futurePlans: "แผนอนาคต",
+    contact: "ติดต่อ",
+  },
+
+  ja: {
+    home: "ホーム",
+    about: "プロフィール",
+    portfolio: "ポートフォリオ",
+    education: "学歴",
+    futurePlans: "将来の計画",
+    contact: "お問い合わせ",
+  },
 };
 
 languageSelect.addEventListener("change", function () {
@@ -84,7 +102,11 @@ languageSelect.addEventListener("change", function () {
       ? "'Fira Sans Condensed', sans-serif"
       : lang === "vi"
       ? "'Oswald', sans-serif"
-      : "'Noto Sans Lao', sans-serif";
+      : lang === "lo"
+      ? "'Noto Sans Lao', sans-serif"
+      : lang === "th"
+      ? "'Noto Sans Thai', sans-serif"
+      : "'Noto Sans JP', sans-serif";
 
   document.querySelectorAll(".nav-links a").forEach((link) => {
     const key = link.getAttribute("href").substring(1);
@@ -140,23 +162,23 @@ window.addEventListener("resize", () => {
 });
 
 // Theme toggle
-const themeToggle = document.getElementById('theme-toggle');
-const themeIcon = themeToggle.querySelector('i');
+const themeToggle = document.getElementById("theme-toggle");
+const themeIcon = themeToggle.querySelector("i");
 
 // Check for saved theme preference or default to dark
-const currentTheme = localStorage.getItem('theme') || 'dark';
-document.documentElement.setAttribute('data-theme', currentTheme);
+const currentTheme = localStorage.getItem("theme") || "dark";
+document.documentElement.setAttribute("data-theme", currentTheme);
 updateThemeIcon(currentTheme);
 
-themeToggle.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    updateThemeIcon(newTheme);
+themeToggle.addEventListener("click", () => {
+  const currentTheme = document.documentElement.getAttribute("data-theme");
+  const newTheme = currentTheme === "light" ? "dark" : "light";
+
+  document.documentElement.setAttribute("data-theme", newTheme);
+  localStorage.setItem("theme", newTheme);
+  updateThemeIcon(newTheme);
 });
 
 function updateThemeIcon(theme) {
-    themeIcon.className = theme === 'light' ? 'fas fa-moon' : 'fas fa-sun';
+  themeIcon.className = theme === "light" ? "fas fa-moon" : "fas fa-sun";
 }
