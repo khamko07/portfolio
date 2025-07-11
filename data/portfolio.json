@@ -43,7 +43,13 @@
         "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านรองเท้าโดยใช้ PHP"
       },
       "image": "img/project1.jpg",
-      "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
       "link": "#",
       "github": "#"
     },
@@ -64,7 +70,12 @@
         "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ข่าวฟุตบอลโดยใช้ PHP"
       },
       "image": "img/project2.jpg",
-      "technologies": ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "JavaScript"
+      ],
       "link": "#",
       "github": "#"
     },
@@ -85,7 +96,12 @@
         "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านโทรศัพท์โดยใช้ PHP"
       },
       "image": "img/project3.jpg",
-      "technologies": ["PHP", "MySQL", "CSS", "JavaScript"],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "CSS",
+        "JavaScript"
+      ],
       "link": "#",
       "github": "#"
     },
@@ -106,21 +122,44 @@
         "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านโทรศัพท์โดยใช้ JavaScript"
       },
       "image": "img/project4.jpg",
-      "technologies": ["JavaScript", "HTML", "CSS", "LocalStorage"],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "LocalStorage"
+      ],
       "link": "#",
       "github": "#"
     }
   ],
   "skills": {
     "frontend": [
-      {"name": "HTML/CSS", "level": 80},
-      {"name": "JavaScript", "level": 60},
-      {"name": "Vue", "level": 50}
+      {
+        "name": "HTML/CSS",
+        "level": 80
+      },
+      {
+        "name": "JavaScript",
+        "level": 60
+      },
+      {
+        "name": "Vue",
+        "level": 50
+      }
     ],
     "backend": [
-      {"name": "PHP", "level": 80},
-      {"name": "SQL", "level": 75},
-      {"name": "Laravel", "level": 60}
+      {
+        "name": "PHP",
+        "level": 80
+      },
+      {
+        "name": "SQL",
+        "level": 75
+      },
+      {
+        "name": "Laravel",
+        "level": 60
+      }
     ]
   },
   "education": [
@@ -224,7 +263,7 @@
   ],
   "futurePlans": [
     {
-      "id": "plan1",
+      "id": "0",
       "title": {
         "en": "Master New Technologies",
         "vi": "Thành Thạo Công Nghệ Mới",
@@ -233,7 +272,7 @@
         "th": "เชี่ยวชาญเทคโนโลยีใหม่"
       },
       "description": {
-        "en": "Continuously learn and adapt to emerging web technologies and photography techniques.",
+        "en": "Continuously learn and adapt to emerging web technologies and photography techniques test1",
         "vi": "Liên tục học hỏi và thích nghi với các công nghệ web mới nổi và kỹ thuật nhiếp ảnh.",
         "lo": "ຮຽນຮູ້ ແລະ ປັບຕົວຢ່າງຕໍ່ເນື່ອງກັບເຕັກໂນໂລຊີເວັບທີ່ພົ້ນຂຶ້ນ ແລະ ເຕັກນິກການຖ່າຍຮູບ.",
         "zh": "持续学习和适应新兴的网络技术和摄影技巧。",
