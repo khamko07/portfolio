@@ -27,6 +27,12 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&family=Oswald:wght@200..700&display=swap"
             rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap"
+            rel="stylesheet">
 
         <!-- Font Awesome for icons -->
         <link rel="stylesheet"
@@ -63,6 +69,8 @@
                         <option value="en">English</option>
                         <option value="vi">Tiếng Việt</option>
                         <option value="lo">ພາສາລາວ</option>
+                        <option value="zh">中文</option>
+                        <option value="th">ไทย</option>
                     </select>
                 </div>
             </nav>
@@ -71,23 +79,23 @@
         <main>
             <section id="home">
                 <div class="home-content">
-                    <h1>Welcome to My Portfolio</h1>
-                    <p>Photographer | Web Developer | Lifelong Learner</p>
-                    <a href="#about" class="btn">Learn More</a>
+                    <h1 data-key="welcome">Welcome to My Portfolio</h1>
+                    <p data-key="tagline">Photographer | Web Developer | Lifelong Learner</p>
+                    <a href="#about" class="btn" data-key="learnMore">Learn More</a>
                 </div>
             </section>
 
             <section id="about">
                 <div class="container">
-                    <h2 class="section-title">About Me</h2>
+                    <h2 class="section-title" data-key="aboutTitle">About Me</h2>
                     <div class="about-content">
                         <div class="about-text">
-                            <p>Hello! I'm Khamko, a passionate photographer,
+                            <p data-key="aboutText1">Hello! I'm Khamko, a passionate photographer,
                                 front-end developer, and travel enthusiast. I
                                 love capturing the world through my lens and
                                 translating creative ideas into beautiful,
                                 functional websites. </p>
-                            <p>My journey in photography allows me to explore
+                            <p data-key="aboutText2">My journey in photography allows me to explore
                                 new perspectives, while coding challenges me to
                                 bring designs to life with a focus on user
                                 experience. When I'm not behind the camera or
@@ -104,34 +112,34 @@
 
             <section id="portfolio">
                 <div class="container">
-                    <h2 class="section-title">My Portfolio</h2>
+                    <h2 class="section-title" data-key="portfolioTitle">My Portfolio</h2>
                     <div class="portfolio-grid">
                         <div class="portfolio-item">
                             <img src="img/project1.jpg" alt="Project 1">
                             <div class="portfolio-item-info">
-                                <h3>Lao Shoes</h3>
-                                <p>"This is a third-year project to build a shoe shop website using PHP."</p>
+                                <h3 data-key="project1Title">Lao Shoes</h3>
+                                <p data-key="project1Desc">"This is a third-year project to build a shoe shop website using PHP."</p>
                             </div>
                         </div>
                         <div class="portfolio-item">
                             <img src="img/project2.jpg" alt="Project 2">
                             <div class="portfolio-item-info">
-                                <h3>Football news</h3>
-                                <p>"This is a third-year project to build a football news website using PHP."</p>
+                                <h3 data-key="project2Title">Football news</h3>
+                                <p data-key="project2Desc">"This is a third-year project to build a football news website using PHP."</p>
                             </div>
                         </div>
                         <div class="portfolio-item">
                             <img src="img/project3.jpg" alt="Project 3">
                             <div class="portfolio-item-info">
-                                <h3>Phone shop</h3>
-                                <p>"This is a third-year project to build a phone shop website using PHP."</p>
+                                <h3 data-key="project3Title">Phone shop</h3>
+                                <p data-key="project3Desc">"This is a third-year project to build a phone shop website using PHP."</p>
                             </div>
                         </div>
                         <div class="portfolio-item">
                             <img src="img/project4.jpg" alt="Project 4">
                             <div class="portfolio-item-info">
-                                <h3>Phone shop</h3>
-                                <p>"This is a third-year project to build a phone shop website using JavaScript."</p>
+                                <h3 data-key="project4Title">Phone shop</h3>
+                                <p data-key="project4Desc">"This is a third-year project to build a phone shop website using JavaScript."</p>
                             </div>
                         </div>
                     </div>
@@ -140,50 +148,50 @@
 
             <section id="education">
                 <div class="container">
-                    <h2 class="section-title">Education & Skills</h2>
+                    <h2 class="section-title" data-key="educationTitle">Education & Skills</h2>
                     <div class="timeline">
                         <div class="timeline-item left">
                             <div class="timeline-content">
                                 <h3>2017-2020</h3>
-                                <p>SomSouk Secondary School</p>
+                                <p data-key="education1">SomSouk Secondary School</p>
                             </div>
                         </div>
                         <div class="timeline-item right">
                             <div class="timeline-content">
                                 <h3>2020 - 2021</h3>
-                                <p><b>Learn Vietnamese</b></p>
-                                <p>The University of Danang - University of
+                                <p><b data-key="education2Title">Learn Vietnamese</b></p>
+                                <p data-key="education2Desc">The University of Danang - University of
                                     Science and Education</p>
                             </div>
                         </div>
                         <div class="timeline-item left">
                             <div class="timeline-content">
                                 <h3>2021 - 2025</h3>
-                                <p><b>Information technology</b></p>
-                                <p>The University of Danang - University of
+                                <p><b data-key="education3Title">Information technology</b></p>
+                                <p data-key="education3Desc">The University of Danang - University of
                                     Science and Education</p>
                             </div>
                         </div>
                         <div class="timeline-item right">
                             <div class="timeline-content">
                                 <h3>2024</h3>
-                                <p><b>Internship</b></p>
-                                <p><b>Web developer</b></p>
-                                <p>"Pascalia Asia Việt Nam"</p>
+                                <p><b data-key="education4Title">Internship</b></p>
+                                <p><b data-key="education4Role">Web developer</b></p>
+                                <p data-key="education4Company">"Pascalia Asia Việt Nam"</p>
                             </div>
                         </div>
                         <div class="timeline-item left">
                             <div class="timeline-content">
                                 <h3>2025 - 2030</h3>
-                                <p><b>Web developer</b></p>
-                                <p>.....................</p>
+                                <p><b data-key="education5Title">Web developer</b></p>
+                                <p data-key="education5Desc">.....................</p>
                             </div>
                         </div>
                         <div class="timeline-item right">
                             <div class="timeline-content">
                                 <h3>2030</h3>
-                                <p><b>Web developer</b></p>
-                                <p>.......................</p>
+                                <p><b data-key="education6Title">Web developer</b></p>
+                                <p data-key="education6Desc">.......................</p>
                             </div>
                         </div>
                     </div>
@@ -192,10 +200,10 @@
 
             <section id="skills">
                 <div class="container">
-                    <h2 class="section-title">Skills</h2>
+                    <h2 class="section-title" data-key="skillsTitle">Skills</h2>
                     <div class="skills-grid">
                         <div class="skill-category">
-                            <h3>Frontend Development</h3>
+                            <h3 data-key="frontendDev">Frontend Development</h3>
                             <div class="skill-item">
                                 <span>HTML/CSS</span>
                                 <div class="skill-bar">
@@ -219,7 +227,7 @@
                             </div>
                         </div>
                         <div class="skill-category">
-                            <h3>Backend Development</h3>
+                            <h3 data-key="backendDev">Backend Development</h3>
                             <div class="skill-item">
                                 <span>PHP</span>
                                 <div class="skill-bar">
@@ -248,21 +256,21 @@
 
             <section id="future-plans">
                 <div class="container">
-                    <h2 class="section-title">Future Plans</h2>
+                    <h2 class="section-title" data-key="futurePlansTitle">Future Plans</h2>
                     <div class="future-plans-content">
                         <div class="future-plan-item">
-                            <h3>Master New Technologies</h3>
-                            <p>Continuously learn and adapt to emerging web
+                            <h3 data-key="plan1Title">Master New Technologies</h3>
+                            <p data-key="plan1Desc">Continuously learn and adapt to emerging web
                                 technologies and photography techniques.</p>
                         </div>
                         <div class="future-plan-item">
-                            <h3>Start a Photography Blog</h3>
-                            <p>Share my experiences, tips, and insights with
+                            <h3 data-key="plan2Title">Start a Photography Blog</h3>
+                            <p data-key="plan2Desc">Share my experiences, tips, and insights with
                                 fellow photography enthusiasts.</p>
                         </div>
                         <div class="future-plan-item">
-                            <h3>Web Development</h3>
-                            <p>My heart is set on becoming a dedicated Web
+                            <h3 data-key="plan3Title">Web Development</h3>
+                            <p data-key="plan3Desc">My heart is set on becoming a dedicated Web
                                 Developer
                                 in Da Nang after graduation. I aspire to join a
                                 tech company where I
@@ -279,23 +287,23 @@
 
             <section id="contact">
                 <div class="container">
-                    <h2 class="section-title">Get in Touch</h2>
+                    <h2 class="section-title" data-key="contactTitle">Get in Touch</h2>
                     <form class="contact-form">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name" data-key="nameLabel">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-key="emailLabel">Email</label>
                             <input type="email" id="email" name="email"
                                 required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message" data-key="messageLabel">Message</label>
                             <textarea id="message" name="message"
                                 required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn" data-key="sendMessage">Send Message</button>
                     </form>
                     <div class="social-links">
                         <a href="https://web.facebook.com/khamkoxys"
@@ -312,7 +320,7 @@
         </main>
 
         <footer>
-            <p>&copy; 2025 Khamko. All rights reserved.</p>
+            <p>&copy; 2025 Khamko. <span data-key="copyright">All rights reserved.</span></p>
         </footer>
         <script src="app.js"></script>
 
