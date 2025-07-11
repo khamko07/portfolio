@@ -1,0 +1,278 @@
+{
+  "personal": {
+    "name": "Khamko",
+    "tagline": {
+      "en": "Photographer | Web Developer | Lifelong Learner",
+      "vi": "Nhiếp Ảnh Gia | Lập Trình Viên Web | Học Hỏi Suốt Đời",
+      "lo": "ຊ່າງພາບ | ນັກພັດທະນາເວັບ | ຜູ້ຮຽນຮູ້ຕະຫຼອດຊີວິດ",
+      "zh": "摄影师 | 网页开发者 | 终身学习者",
+      "th": "ช่างภาพ | นักพัฒนาเว็บ | ผู้เรียนรู้ตลอดชีวิต"
+    },
+    "about": {
+      "text1": {
+        "en": "Hello! I'm Khamko, a passionate photographer, front-end developer, and travel enthusiast. I love capturing the world through my lens and translating creative ideas into beautiful, functional websites.",
+        "vi": "Xin chào! Tôi là Khamko, một nhiếp ảnh gia đam mê, nhà phát triển front-end và người đam mê du lịch. Tôi thích ghi lại thế giới qua ống kính và chuyển đổi những ý tưởng sáng tạo thành những trang web đẹp mắt và chức năng.",
+        "lo": "ສະບາຍດີ! ຂ້ອຍແມ່ນ Khamko, ຊ່າງພາບທີ່ມີໄຟໃນຮ້ອງ, ນັກພັດທະນາ front-end ແລະ ຜູ້ໃຈຮັກການທ່ອງທ່ຽວ. ຂ້ອຍມັກຖ່າຍໂລກຜ່ານເລນຂອງຂ້ອຍ ແລະ ແປງຄວາມຄິດສ້າງສັນໃຫ້ເປັນເວັບໄຊທີ່ສວຍງາມ ແລະ ມີປະໂຫຍດ.",
+        "zh": "你好！我是Khamko，一名充满激情的摄影师、前端开发者和旅行爱好者。我喜欢通过镜头捕捉世界，将创意想法转化为美观实用的网站。",
+        "th": "สวัสดี! ฉันคือ Khamko ช่างภาพที่มีความหลงใหล นักพัฒนา front-end และผู้รักการท่องเที่ยว ฉันชอบบันทึกโลกผ่านเลนส์ของฉันและแปลความคิดสร้างสรรค์ให้เป็นเว็บไซต์ที่สวยงามและใช้งานได้"
+      },
+      "text2": {
+        "en": "My journey in photography allows me to explore new perspectives, while coding challenges me to bring designs to life with a focus on user experience. When I'm not behind the camera or writing code, you can find me discovering new places and cultures, which constantly inspire my work.",
+        "vi": "Hành trình nhiếp ảnh của tôi cho phép tôi khám phá những góc nhìn mới, trong khi lập trình thách thức tôi biến thiết kế thành hiện thực với trọng tâm là trải nghiệm người dùng. Khi không cầm máy ảnh hoặc viết code, bạn có thể tìm thấy tôi đang khám phá những địa điểm và văn hóa mới, điều này luôn truyền cảm hứng cho công việc của tôi.",
+        "lo": "ການເດີນທາງໃນການຖ່າຍຮູບຂອງຂ້ອຍເຮັດໃຫ້ຂ້ອຍສາມາດສຳຫຼວດທັດສະນະໃໝ່, ໃນຂະນະທີ່ການເຂົ້າລະຫັດທ້າທາຍຂ້ອຍໃຫ້ນຳເອົາການອອກແບບມາມີຊີວິດດ້ວຍການສຸມໃສ່ປະສົບການຂອງຜູ້ໃຊ້. ເມື່ອຂ້ອຍບໍ່ໄດ້ຢູ່ຫຼັງກ້ອງຫຼືຂຽນໂຄດ, ທ່ານສາມາດພົບຂ້ອຍໄດ້ວ່າກຳລັງຄົ້ນພົບສະຖານທີ່ ແລະ ວັດທະນະທຳໃໝ່, ເຊິ່ງໄດ້ໃຫ້ແຮງບັນດານໃຈແກ່ວຽກງານຂອງຂ້ອຍຢູ່ເສມໍ.",
+        "zh": "我的摄影之旅让我能够探索新的视角，而编程挑战我将设计变为现实，专注于用户体验。当我不在相机后面或编写代码时，你可以发现我在探索新的地方和文化，这不断激发我的工作灵感。",
+        "th": "การเดินทางในการถ่ายภาพของฉันช่วยให้ฉันสำรวจมุมมองใหม่ ๆ ในขณะที่การเขียนโปรแกรมท้าทายให้ฉันนำการออกแบบมาสู่ชีวิตโดยเน้นที่ประสบการณ์ของผู้ใช้ เมื่อฉันไม่ได้อยู่หลังกล้องหรือเขียนโค้ด คุณสามารถพบฉันได้ว่ากำลังค้นพบสถานที่และวัฒนธรรมใหม่ ๆ ซึ่งเป็นแรงบันดาลใจในงานของฉันอยู่เสมอ"
+      }
+    }
+  },
+  "projects": [
+    {
+      "id": "project1",
+      "title": {
+        "en": "Lao Shoes",
+        "vi": "Cửa Hàng Giày Lào",
+        "lo": "ຮ້ານເກີບລາວ",
+        "zh": "老挝鞋店",
+        "th": "ร้านรองเท้าลาว"
+      },
+      "description": {
+        "en": "This is a third-year project to build a shoe shop website using PHP.",
+        "vi": "Đây là dự án năm ba để xây dựng trang web cửa hàng giày bằng PHP.",
+        "lo": "ນີ້ແມ່ນໂຄງການປີທີສາມເພື່ອສ້າງເວັບໄຊຮ້ານເກີບໂດຍໃຊ້ PHP.",
+        "zh": "这是一个使用PHP构建鞋店网站的大三项目。",
+        "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านรองเท้าโดยใช้ PHP"
+      },
+      "image": "img/project1.jpg",
+      "technologies": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "link": "#",
+      "github": "#"
+    },
+    {
+      "id": "project2",
+      "title": {
+        "en": "Football news",
+        "vi": "Tin tức bóng đá",
+        "lo": "ຂ່າວບານເຕະ",
+        "zh": "足球新闻",
+        "th": "ข่าวฟุตบอล"
+      },
+      "description": {
+        "en": "This is a third-year project to build a football news website using PHP.",
+        "vi": "Đây là dự án năm ba để xây dựng trang web tin tức bóng đá bằng PHP.",
+        "lo": "ນີ້ແມ່ນໂຄງການປີທີສາມເພື່ອສ້າງເວັບໄຊຂ່າວບານເຕະໂດຍໃຊ້ PHP.",
+        "zh": "这是一个使用PHP构建足球新闻网站的大三项目。",
+        "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ข่าวฟุตบอลโดยใช้ PHP"
+      },
+      "image": "img/project2.jpg",
+      "technologies": ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+      "link": "#",
+      "github": "#"
+    },
+    {
+      "id": "project3",
+      "title": {
+        "en": "Phone shop",
+        "vi": "Cửa hàng điện thoại",
+        "lo": "ຮ້ານໂທລະສັບ",
+        "zh": "手机商店",
+        "th": "ร้านโทรศัพท์"
+      },
+      "description": {
+        "en": "This is a third-year project to build a phone shop website using PHP.",
+        "vi": "Đây là dự án năm ba để xây dựng trang web cửa hàng điện thoại bằng PHP.",
+        "lo": "ນີ້ແມ່ນໂຄງການປີທີສາມເພື່ອສ້າງເວັບໄຊຮ້ານໂທລະສັບໂດຍໃຊ້ PHP.",
+        "zh": "这是一个使用PHP构建手机商店网站的大三项目。",
+        "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านโทรศัพท์โดยใช้ PHP"
+      },
+      "image": "img/project3.jpg",
+      "technologies": ["PHP", "MySQL", "CSS", "JavaScript"],
+      "link": "#",
+      "github": "#"
+    },
+    {
+      "id": "project4",
+      "title": {
+        "en": "Phone shop",
+        "vi": "Cửa hàng điện thoại",
+        "lo": "ຮ້ານໂທລະສັບ",
+        "zh": "手机商店",
+        "th": "ร้านโทรศัพท์"
+      },
+      "description": {
+        "en": "This is a third-year project to build a phone shop website using JavaScript.",
+        "vi": "Đây là dự án năm ba để xây dựng trang web cửa hàng điện thoại bằng JavaScript.",
+        "lo": "ນີ້ແມ່ນໂຄງການປີທີສາມເພື່ອສ້າງເວັບໄຊຮ້ານໂທລະສັບໂດຍໃຊ້ JavaScript.",
+        "zh": "这是一个使用JavaScript构建手机商店网站的大三项目。",
+        "th": "นี่คือโครงการปีที่สามเพื่อสร้างเว็บไซต์ร้านโทรศัพท์โดยใช้ JavaScript"
+      },
+      "image": "img/project4.jpg",
+      "technologies": ["JavaScript", "HTML", "CSS", "LocalStorage"],
+      "link": "#",
+      "github": "#"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      {"name": "HTML/CSS", "level": 80},
+      {"name": "JavaScript", "level": 60},
+      {"name": "Vue", "level": 50}
+    ],
+    "backend": [
+      {"name": "PHP", "level": 80},
+      {"name": "SQL", "level": 75},
+      {"name": "Laravel", "level": 60}
+    ]
+  },
+  "education": [
+    {
+      "id": "edu1",
+      "period": "2017-2020",
+      "title": {
+        "en": "SomSouk Secondary School",
+        "vi": "Trường Trung Học SomSouk",
+        "lo": "ໂຮງຮຽນມັດທະຍົມ SomSouk",
+        "zh": "SomSouk中学",
+        "th": "โรงเรียนมัธยม SomSouk"
+      },
+      "institution": "",
+      "position": "left"
+    },
+    {
+      "id": "edu2",
+      "period": "2020 - 2021",
+      "title": {
+        "en": "Learn Vietnamese",
+        "vi": "Học Tiếng Việt",
+        "lo": "ຮຽນພາສາຫວຽດນາມ",
+        "zh": "学习越南语",
+        "th": "เรียนภาษาเวียดนาม"
+      },
+      "institution": {
+        "en": "The University of Danang - University of Science and Education",
+        "vi": "Đại học Đà Nẵng - Đại học Sư phạm",
+        "lo": "ມະຫາວິທະຍາໄລດານັງ - ມະຫາວິທະຍາໄລວິທະຍາສາດ ແລະ ການສຶກສາ",
+        "zh": "岘港大学 - 科学与教育大学",
+        "th": "มหาวิทยาลัยดานัง - มหาวิทยาลัยวิทยาศาสตร์และการศึกษา"
+      },
+      "position": "right"
+    },
+    {
+      "id": "edu3",
+      "period": "2021 - 2025",
+      "title": {
+        "en": "Information technology",
+        "vi": "Công nghệ thông tin",
+        "lo": "ເຕັກໂນໂລຊີສາລະເທດ",
+        "zh": "信息技术",
+        "th": "เทคโนโลยีสารสนเทศ"
+      },
+      "institution": {
+        "en": "The University of Danang - University of Science and Education",
+        "vi": "Đại học Đà Nẵng - Đại học Sư phạm",
+        "lo": "ມະຫາວິທະຍາໄລດານັງ - ມະຫາວິທະຍາໄລວິທະຍາສາດ ແລະ ການສຶກສາ",
+        "zh": "岘港大学 - 科学与教育大学",
+        "th": "มหาวิทยาลัยดานัง - มหาวิทยาลัยวิทยาศาสตร์และการศึกษา"
+      },
+      "position": "left"
+    },
+    {
+      "id": "edu4",
+      "period": "2024",
+      "title": {
+        "en": "Internship",
+        "vi": "Thực tập",
+        "lo": "ຝຶກງານ",
+        "zh": "实习",
+        "th": "ฝึกงาน"
+      },
+      "role": {
+        "en": "Web developer",
+        "vi": "Lập trình viên web",
+        "lo": "ນັກພັດທະນາເວັບ",
+        "zh": "网页开发者",
+        "th": "นักพัฒนาเว็บ"
+      },
+      "institution": "Pascalia Asia Việt Nam",
+      "position": "right"
+    },
+    {
+      "id": "edu5",
+      "period": "2025 - 2030",
+      "title": {
+        "en": "Web developer",
+        "vi": "Lập trình viên web",
+        "lo": "ນັກພັດທະນາເວັບ",
+        "zh": "网页开发者",
+        "th": "นักพัฒนาเว็บ"
+      },
+      "institution": ".....................",
+      "position": "left"
+    },
+    {
+      "id": "edu6",
+      "period": "2030",
+      "title": {
+        "en": "Web developer",
+        "vi": "Lập trình viên web",
+        "lo": "ນັກພັດທະນາເວັບ",
+        "zh": "网页开发者",
+        "th": "นักพัฒนาเว็บ"
+      },
+      "institution": ".......................",
+      "position": "right"
+    }
+  ],
+  "futurePlans": [
+    {
+      "id": "plan1",
+      "title": {
+        "en": "Master New Technologies",
+        "vi": "Thành Thạo Công Nghệ Mới",
+        "lo": "ຊຳນານເຕັກໂນໂລຊີໃໝ່",
+        "zh": "掌握新技术",
+        "th": "เชี่ยวชาญเทคโนโลยีใหม่"
+      },
+      "description": {
+        "en": "Continuously learn and adapt to emerging web technologies and photography techniques.",
+        "vi": "Liên tục học hỏi và thích nghi với các công nghệ web mới nổi và kỹ thuật nhiếp ảnh.",
+        "lo": "ຮຽນຮູ້ ແລະ ປັບຕົວຢ່າງຕໍ່ເນື່ອງກັບເຕັກໂນໂລຊີເວັບທີ່ພົ້ນຂຶ້ນ ແລະ ເຕັກນິກການຖ່າຍຮູບ.",
+        "zh": "持续学习和适应新兴的网络技术和摄影技巧。",
+        "th": "เรียนรู้และปรับตัวกับเทคโนโลยีเว็บที่เกิดขึ้นใหม่และเทคนิคการถ่ายภาพอย่างต่อเนื่อง"
+      }
+    },
+    {
+      "id": "plan2",
+      "title": {
+        "en": "Start a Photography Blog",
+        "vi": "Bắt Đầu Blog Nhiếp Ảnh",
+        "lo": "ເລີ່ມຕົ້ນ Blog ຖ່າຍຮູບ",
+        "zh": "开始摄影博客",
+        "th": "เริ่มบล็อกการถ่ายภาพ"
+      },
+      "description": {
+        "en": "Share my experiences, tips, and insights with fellow photography enthusiasts.",
+        "vi": "Chia sẻ kinh nghiệm, mẹo và hiểu biết của tôi với những người đam mê nhiếp ảnh.",
+        "lo": "ແບ່ງປັນປະສົບການ, ຄຳແນະນຳ ແລະ ຄວາມເຂົ້າໃຈຂອງຂ້ອຍກັບເພື່ອນຮ່ວມຄວາມກະຕືລືລົ້ນໃນການຖ່າຍຮູບ.",
+        "zh": "与摄影爱好者分享我的经验、技巧和见解。",
+        "th": "แบ่งปันประสบการณ์ เคล็ดลับ และข้อมูลเชิงลึกของฉันกับเพื่อนผู้ชื่นชอบการถ่ายภาพ"
+      }
+    },
+    {
+      "id": "plan3",
+      "title": {
+        "en": "Web Development",
+        "vi": "Phát Triển Web",
+        "lo": "ການພັດທະນາເວັບ",
+        "zh": "网页开发",
+        "th": "การพัฒนาเว็บ"
+      },
+      "description": {
+        "en": "My heart is set on becoming a dedicated Web Developer in Da Nang after graduation. I aspire to join a tech company where I can grow my skills, learn from experienced developers, and contribute my best work as a team member. Through hard work and dedication, I hope to build a stable career in this beautiful coastal city that I've grown to love.",
+        "vi": "Tôi quyết tâm trở thành một Nhà phát triển Web chuyên nghiệp tại Đà Nẵng sau khi tốt nghiệp. Tôi mong muốn gia nhập một công ty công nghệ nơi tôi có thể phát triển kỹ năng, học hỏi từ các nhà phát triển giàu kinh nghiệm và đóng góp công việc tốt nhất với tư cách là một thành viên trong nhóm. Thông qua làm việc chăm chỉ và cống hiến, tôi hy vọng xây dựng một sự nghiệp ổn định tại thành phố ven biển xinh đẹp mà tôi đã yêu thích.",
+        "lo": "ໃຈຂອງຂ້ອຍຕັ້ງໃຈທີ່ຈະກາຍເປັນນັກພັດທະນາເວັບທີ່ອຸທິດຕົນໃນດານັງຫຼັງຈາກຈົບການສຶກສາ. ຂ້ອຍປາດຖະໜາທີ່ຈະເຂົ້າຮ່ວມບໍລິສັດເຕັກໂນໂລຊີທີ່ຂ້ອຍສາມາດພັດທະນາທັກສະຂອງຂ້ອຍ, ຮຽນຮູ້ຈາກນັກພັດທະນາທີ່ມີປະສົບການ ແລະ ປະກອບສ່ວນວຽກງານທີ່ດີທີ່ສຸດຂອງຂ້ອຍໃນຖານະເປັນສະມາຊິກທີມ. ຜ່ານການເຮັດວຽກຢ່າງເພຍດແລະອຸທິດຕົນ, ຂ້ອຍຫວັງວ່າຈະສ້າງອາຊີບທີ່ໝັ້ນຄົງໃນເມືອງຊາຍຝັ່ງທະເລທີ່ສວຍງາມນີ້ທີ່ຂ້ອຍໄດ້ຮັກ.",
+        "zh": "我决心在毕业后成为岘港的专业网页开发者。我渴望加入一家科技公司，在那里我可以提升技能，向经验丰富的开发者学习，并作为团队成员贡献我最好的工作。通过努力工作和奉献，我希望在这个我已经爱上的美丽海滨城市建立稳定的职业生涯。",
+        "th": "ใจของฉันตั้งใจที่จะเป็นนักพัฒนาเว็บที่อุทิศตนในดานังหลังจากจบการศึกษา ฉันปรารถนาที่จะเข้าร่วมบริษัทเทคโนโลยีที่ฉันสามารถพัฒนาทักษะ เรียนรู้จากนักพัฒนาที่มีประสบการณ์ และมีส่วนร่วมในงานที่ดีที่สุดของฉันในฐานะสมาชิกทีม ผ่านการทำงานหนักและความทุ่มเท ฉันหวังว่าจะสร้างอาชีพที่มั่นคงในเมืองชายฝั่งที่สวยงามนี้ที่ฉันได้รักใคร่"
+      }
+    }
+  ]
+}

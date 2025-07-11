@@ -58,6 +58,7 @@ const translations = {
     education: "Education",
     futurePlans: "Future Plans",
     contact: "Contact",
+    admin: "Admin",
     
     // Home section
     welcome: "Welcome to My Portfolio",
@@ -127,6 +128,7 @@ const translations = {
     education: "Học vấn",
     futurePlans: "Kế hoạch",
     contact: "Liên hệ",
+    admin: "Quản trị",
     
     // Home section
     welcome: "Chào Mừng Đến Với Portfolio Của Tôi",
@@ -196,6 +198,7 @@ const translations = {
     education: "ການສຶກສາ",
     futurePlans: "ແຜນອະນາຄົດ",
     contact: "ຕິດຕໍ່",
+    admin: "ຜູ້ຄຸ້ມຄອງ",
     
     // Home section
     welcome: "ຍິນດີຕ້ອນຮັບສູ່ Portfolio ຂອງຂ້ອຍ",
@@ -265,6 +268,7 @@ const translations = {
     education: "教育",
     futurePlans: "未来计划",
     contact: "联系",
+    admin: "管理员",
     
     // Home section
     welcome: "欢迎来到我的作品集",
@@ -334,6 +338,7 @@ const translations = {
     education: "การศึกษา",
     futurePlans: "แผนอนาคต",
     contact: "ติดต่อ",
+    admin: "ผู้ดูแลระบบ",
     
     // Home section
     welcome: "ยินดีต้อนรับสู่ Portfolio ของฉัน",
@@ -398,6 +403,13 @@ const translations = {
 };
 
 function updateContent(lang) {
+  // Use the new data manager if available
+  if (typeof updateContentWithData === 'function') {
+    updateContentWithData(lang);
+    return;
+  }
+  
+  // Fallback to original functionality
   document.documentElement.lang = lang;
   
   // Set appropriate font for each language
@@ -447,14 +459,43 @@ function updateContent(lang) {
 
 languageSelect.addEventListener("change", function () {
   const lang = this.value;
+  
+  // Update traditional content
   updateContent(lang);
+  
+  // Update data manager language and re-render if available
+  if (typeof portfolioDataManager !== 'undefined') {
+    portfolioDataManager.setLanguage(lang);
+    updateContentWithData();
+  }
+  
   localStorage.setItem('selectedLanguage', lang);
 });
 
-// Load saved language preference
-const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
-languageSelect.value = savedLanguage;
-updateContent(savedLanguage);
+// Enhanced content update function that works with data manager
+function updateContentWithData() {
+  if (typeof portfolioDataManager !== 'undefined') {
+    updatePersonalInfo();
+    updateProjects();
+    updateEducation();
+    updateFuturePlans();
+  }
+}
+
+// Load saved language preference and initialize content
+document.addEventListener('DOMContentLoaded', async function() {
+  const savedLanguage = localStorage.getItem('selectedLanguage') || 'en';
+  languageSelect.value = savedLanguage;
+  
+  // Initialize data manager if available
+  if (typeof portfolioDataManager !== 'undefined') {
+    portfolioDataManager.setLanguage(savedLanguage);
+    await renderPortfolioContent();
+  }
+  
+  // Update traditional translations
+  updateContent(savedLanguage);
+});
 
 // Lightbox for portfolio items
 const portfolioItems = document.querySelectorAll(".portfolio-item");
